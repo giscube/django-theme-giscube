@@ -1,0 +1,22 @@
+{% extends "admin/base.html" %}
+{% load static from staticfiles %}
+
+{% block title %}{{ title }} | {{ site_title|default:_('Django site admin') }}{% endblock %}
+
+{% block extrahead %}
+{{ block.super }}
+<link rel="stylesheet" type="text/css" href="{% static "theme_giscube/theme-giscube.css" %}" />
+{% endblock %}
+
+{% block branding %}
+<h1 id="site-name"
+    ><img src="{% static 'theme_giscube/logo_giscube.svg' %}"
+      /><a href="{% url 'admin:index' %}"
+           >{{ site_header|default:_('GISCube') }}</a></h1>
+{% endblock %}
+
+{% block nav-global %}{% endblock %}
+
+{% block footer %}
+<p class="giscube-footer"><strong>&copy; 2018 Giscube</strong> &#124; <a href="http://www.giscube.org/">Giscube</a></p>
+{% endblock %}

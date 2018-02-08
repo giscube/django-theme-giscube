@@ -1,0 +1,158 @@
+a:link, a:visited {
+  color: #4586c5;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #002337;
+}
+
+#header {
+  background: #e3f2fe;
+  color: #002337;
+  height: auto;
+  padding: 18px 40px;
+}
+
+#header a:link, #header a:visited {
+  color: #002337;
+  border-bottom: none;
+}
+
+#site-name img {
+  margin: -2px 10px 0 0;
+  height: 45px;
+  width: auto;
+}
+
+#header #user-tools a:hover {
+  color: #96c7de;
+  border-bottom: 1px solid;
+  border-color: #96c7de;
+}
+
+#branding h1 {
+  text-transform: uppercase;
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+#branding h1, #branding h1 a:link, #branding h1 a:visited {
+  color: #002337;
+}
+
+body.login #header h1 {
+  text-align: center;
+  line-height: 1.2em;
+  margin: 20px 10px;
+}
+
+body.login #header h1 a {
+  color: #002337;
+}
+
+.module h2, .module caption, .inline-group h2 {
+  background: #002337
+}
+div.breadcrumbs a {color:#3587c5}
+div.breadcrumbs {
+  background: #002337;
+  color: #e3f2fe;
+}
+
+div.breadcrumbs a:hover {
+  color: #fff;
+}
+
+h1 {
+  font-size: 1.8em;
+  color: #000;
+}
+
+thead th {
+  background: #e5f2fe;
+}
+
+thead th.sorted {
+  background: #c2def7;
+}
+
+table thead th .text a:focus, table thead th .text a:hover {
+  background: #e3f2fe;
+}
+
+ul.messagelist li.success {
+  background-color: #a0d7f5;
+}
+
+.button, input[type="submit"], input[type="button"], .submit-row input, a.button {
+  background: #62afda;
+}
+
+.button.default, input.default[type="submit"], .submit-row input.default {
+  background: #075986;
+}
+
+.selector-chosen h2 {
+  background: #56829b!important;
+}
+
+.button:hover, input[type="submit"]:hover, input[type="button"]:hover, .submit-row input:hover, a.button:hover {
+  background: #002437;
+}
+
+.button.default:hover, input.default[type="submit"]:hover, .submit-row input.default:hover {
+  background: #002437;
+}
+
+.object-tools a:focus, .object-tools a:hover {
+  background-color: #002437;
+}
+
+#changelist-search div {
+  padding: 10px;
+}
+
+#changelist-filter a:focus, #changelist-filter a:hover, #changelist-filter li.selected a:focus, #changelist-filter li.selected a:hover {
+  color: #002337;
+}
+
+.calendar caption, .calendarbox h2 {
+  background: #cbebfd!important;
+}
+
+.calendar td.selected a {
+  background: #002337!important;
+}
+
+.calendar td a:focus, .timelist a:focus, .calendar td a:hover, .timelist a:hover {
+  background: #3b8ac3!important;
+}
+
+.giscube-footer {
+  padding: 20px 40px;
+  border-top: 1px solid #eee;
+  margin: 60px 0 0;
+  color: #777;
+  background: #f8f8f8;
+  font-size: .9em;
+}
+
+table {
+  background: #fff;
+}
+td, th {
+  border-bottom: 1px solid #b0d5e8
+}
+.row2 {
+  background: #f2fbff;
+}
+
+#changelist-filter li.selected {
+  border-left: 5px solid #a0d7f5;
+}
+
+#changelist-filter li.selected a {
+  color: #3587c5;
+}
