@@ -1,5 +1,6 @@
 {% extends "admin/base.html" %}
 {% load static from staticfiles %}
+{% load giscube_footer %}
 
 {% block title %}{{ title }} | {{ site_title|default:_('Django site admin') }}{% endblock %}
 
@@ -18,5 +19,5 @@
 {% block nav-global %}{% endblock %}
 
 {% block footer %}
-<p class="giscube-footer"><strong>&copy; 2018 Giscube</strong> &#124; <a href="http://www.giscube.org/">Giscube</a></p>
+<p class="giscube-footer"><strong>&copy; {% giscube_copyright_year %} Giscube {% giscube_version %}</strong> &#124; <a href="http://www.giscube.org/">Giscube</a></p>
 {% endblock %}

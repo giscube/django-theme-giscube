@@ -2,7 +2,7 @@ from distutils.core import setup
 from setuptools import find_packages
 
 
-VERSION = '0.1'
+VERSION = '0.1.1'
 
 CLASSIFIERS = [
     'Framework :: Django',
@@ -21,8 +21,8 @@ setup(
     name='django-theme-giscube',
     description='GISCube theme for the Django Admin',
     version=VERSION,
-    author='Manel Clos',
-    author_email='manelclos@gmail.com',
+    author='MICRODISSENY GISCUBE SL',
+    author_email='tech@microdisseny.com',
     license='BSD License',
     platforms=['OS Independent'],
     url='http://github.com/giscube/django-theme-giscube',
